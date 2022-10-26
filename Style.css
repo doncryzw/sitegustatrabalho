@@ -93,60 +93,95 @@
          background-color: rgb(54, 121, 152);
          color: rgb(255, 255, 255);
          border: 2px solid #ffffff;
+         overflow: hidden;
+         -webkit-transition: -webkit-transform .5s ease;
+         transition: transform .5s ease;
             }
               .button1:hover{
-                background-color: #4CAF50;
+                background-color: rgb(39, 97, 167);
                 color: white;  
+                -webkit-transform: scale(1.03);
+                transform: scale(1.03);
             }
       .button2{
          font: bold 1rem Arial;
          background-color: rgb(54, 121, 152);
          color: rgb(255, 255, 255);
          border: 2px solid #ffffff;
+         overflow: hidden;
+         border-radius: 4px;
+         -webkit-transition: -webkit-transform .5s ease;
+         transition: transform .5s ease;
             }
               .button2:hover {
-                background-color: #4CAF50;
+                background-color: rgb(39, 97, 167);
                 color: white;
+                -webkit-transform: scale(1.03);
+                transform: scale(1.03);
             }
       .button3{
          font: bold 1rem Arial;
          background-color: rgb(54, 121, 152);
          color: rgb(255, 255, 255);
          border: 2px solid #ffffff;
+         overflow: hidden;
+         border-radius: 4px;
+         -webkit-transition: -webkit-transform .5s ease;
+         transition: transform .5s ease;
             }
                 .button3:hover {
-                  background-color: #4CAF50;
-                  color: white;
+                  background-color: rgb(39, 97, 167);
+                  color:#ffffff;
+                  -webkit-transform: scale(1.03);
+                  transform: scale(1.03);
             }
             .button4{
                 font: bold 1rem Arial;
                 background-color: rgb(54, 121, 152);
          color: rgb(255, 255, 255);
          border: 2px solid #ffffff;
+         overflow: hidden;
+         border-radius: 4px;
+         -webkit-transition: -webkit-transform .5s ease;
+         transition: transform .5s ease;
             }
                     .button4:hover {
-                        background-color: #4CAF50;
+                        background-color: rgb(39, 97, 167);
                         color: white;
+                        -webkit-transform: scale(1.03);
+                        transform: scale(1.03);
             }
             .button5{
                 font: bold 1rem Arial;
                 background-color: rgb(54, 121, 152);
          color: rgb(255, 255, 255);
          border: 2px solid #ffffff;
+         overflow: hidden;
+         border-radius: 4px;
+         -webkit-transition: -webkit-transform .5s ease;
+         transition: transform .5s ease;
             }
                     .button5:hover {
-                        background-color: #4CAF50;
+                        background-color: rgb(39, 97, 167);
                         color: white;
+                        -webkit-transform: scale(1.03);
+                        transform: scale(1.03);
             }
             .button6{
               font: bold 1rem Arial;
               background-color: rgb(54, 121, 152);
          color: rgb(255, 255, 255);
          border: 2px solid #ffffff;
+         border-radius: 4px;
+         overflow: hidden;
+         -webkit-transition: -webkit-transform .5s ease;
+         transition: transform .5s ease;
           }
                   .button6:hover {
-                      background-color: #4CAF50;
+                      background-color: rgb(39, 97, 167);
                       color: white;
+                      -webkit-transform: scale(1.03);
+                      transform: scale(1.03);
           }
             html {
   scroll-behavior: smooth;
@@ -159,6 +194,16 @@
     background-repeat: no-repeat;
   
 }
+@media(max-width: 500px){
+  #section1{
+      align-items: center;
+      height: 10%;
+      width: 27,5rem;
+      position:relative;
+      background-repeat: no-repeat;
+    }
+  }
+
   .imgTriathlon{
     height: 90vh;
     width: 100%;
@@ -226,24 +271,35 @@
     width: auto;
     height: auto;
     border-radius: 50%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
     overflow: hidden;
     border: 5px solid #ffffff;
   }
-  #imgCruz{
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
- }
- 
  #imgCruz:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
  }
+ @media(max-width: 500px){
+  #imgCruz{
+    max-width:100px;
+    max-height:75px;
+    border: 2px solid #ffffff;
+    }
+  }
   #textoCruz{
     text-align: center;
     position: relative;
     color: white;
     font-size: 25px;
     font-family: 'Montserrat';
+  }
+  @media(max-width: 500px){
+    #textoCruz{
+        font-size: 15px;
+        word-spacing: 2px;
+        line-height: 17px;
+    }
   }
   #imgEmanuel{
     align-items: center;
@@ -255,23 +311,34 @@
     height: auto;
     border-radius: 50%;
     overflow: hidden;
-    border: 5px solid #ffffff;
-  }
-  #imgEmanuel{
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
- }
- 
+    border: 5px solid #ffffff;
+  }
  #imgEmanuel:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
  }
+ @media(max-width: 500px){
+  #imgEmanuel{
+    max-width:100px;
+    max-height:75px;
+    border: 2px solid #ffffff;
+    }
+  }
   #textoEmanuel{
     text-align: center;
     position: relative;
     color: white;
     font-size: 25px;
     font-family: 'Montserrat';
+  }
+  @media(max-width: 500px){
+    #textoEmanuel{
+        font-size: 15px;
+        word-spacing: 2px;
+        line-height: 17px;
+    }
   }
   #imgEdu{
     border-collapse: collapse;
@@ -283,23 +350,33 @@
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid #ffffff;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
   }
-
-#imgEdu{
-   -webkit-transition: -webkit-transform .5s ease;
-   transition: transform .5s ease;
-}
-
 #imgEdu:hover {
    -webkit-transform: scale(1.1);
    transform: scale(1.1);
 }
+@media(max-width: 500px){
+  #imgEdu{
+    max-width:100px;
+    max-height:75px;
+    border: 2px solid #ffffff;
+    }
+  }
   #textoEdu{
     text-align: center;
     position: relative;
     color: white;
     font-size: 25px;
     font-family: 'Montserrat';
+  }
+  @media(max-width: 500px){
+    #textoEdu{
+        font-size: 15px;
+        word-spacing: 2px;
+        line-height: 17px;
+    }
   }
   #imgSantos{
     border-collapse: collapse;
@@ -309,18 +386,22 @@
     width: auto;
     height: auto;
     overflow: hidden;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
     border-radius: 50%;
     border: 5px solid #ffffff;
   }
-  #imgSantos{
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
- }
- 
  #imgSantos:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
  }
+ @media(max-width: 500px){
+  #imgSantos{
+    max-width:100px;
+    max-height:75px;
+    border: 2px solid #ffffff;
+    }
+  }
   #imgGusta{
     border-collapse: collapse;
     position: relative;
@@ -330,13 +411,10 @@
     height: auto;
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid #ffffff;
-  }
-  #imgGusta{
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
- }
- 
+    border: 2px solid #ffffff;
+  }
  #imgGusta:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
@@ -348,6 +426,13 @@
     font-size: 25px;
     font-family: 'Montserrat';
   }
+  @media(max-width: 500px){
+    #textoSantos{
+        font-size: 15px;
+        word-spacing: 2px;
+        line-height: 17px;
+    }
+  }
   #imgMotta{
     border-collapse: collapse;
     position: relative;
@@ -356,18 +441,22 @@
     width: auto;
     height: auto;
     overflow: hidden;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
     border-radius: 50%;
     border: 5px solid #ffffff;
   }
-  #imgMotta{
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
- }
- 
  #imgMotta:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
  }
+ @media(max-width: 500px){
+  #imgMotta{
+    max-width:100px;
+    max-height:75px;
+    border: 2px solid #ffffff;
+    }
+  }
   #textoMotta{
     text-align: center;
     position: relative;
@@ -375,6 +464,13 @@
     font-size: 25px;
     font-family: 'Montserrat';
   }
+  @media(max-width: 500px){
+    #textoMotta{
+        font-size: 15px;
+        word-spacing: 2px;
+        line-height: 17px;
+    }
+  }
   #imgJeff{
     border-collapse: collapse;
     position: relative;
@@ -384,23 +480,34 @@
     height: auto;
     overflow: hidden;
     border-radius: 50%;
-    border: 5px solid #ffffff;
-  }
-  #imgJeff{
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
- }
- 
+    border: 5px solid #ffffff;
+  }
  #imgJeff:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
  }
+@media(max-width: 500px){
+  #imgJeff{
+    max-width:100px;
+    max-height:75px;
+    border: 2px solid #ffffff;
+    }
+  }
   #textoJeff{
     text-align: center;
     position: relative;
     color: white;
     font-size: 25px;
     font-family: 'Montserrat';
+  }
+  @media(max-width: 500px){
+    #textoJeff{
+        font-size: 15px;
+        word-spacing: 2px;
+        line-height: 17px;
+    }
   }
   #Buttontop {
     display: none;
@@ -421,6 +528,15 @@
   #Buttontop:hover {
     background-color: #555;
   }
+  @media(max-width: 500px){
+    #Buttontop{
+      padding: 7.5px;
+      bottom: 10px;
+      right: 20px;
+      z-index: 99;
+      font-size: 9px;
+      }
+    }
 
   h2{
     font: normal 25pt "montserrat";
@@ -440,58 +556,113 @@
 #texto1{
   max-width: 90%;
   max-height: 100%;
-  font: normal 25pt Arial;
+  font: normal Arial;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
   color: white;
-  text-align:left;
-  margin-left: 30px;
-  margin-right: 30px;
+  text-align:justify;
+  margin-left: 60px;
   position:relative; 
   line-height: 35px;
   word-spacing: 4px;
+  display: flex;
+
 }
+@media(max-width: 500px){
+  #texto1{
+      font-size: 15px;
+      word-spacing: 2px;
+      line-height: 17px;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+  }
 #texto2{
   max-width: 90%;
   max-height: 100%;
-  font: normal 25pt Arial;
+  font: normal Arial;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
   color: white;
-  text-align:left;
-  margin-left: 30px;
-  margin-right: 30px;
+  text-align:justify;
+  margin-left: 60px;
   position:relative; 
   line-height: 35px;
   word-spacing: 4px;
+  display: flex;
+
 }
+@media(max-width: 500px){
+  #texto2{
+      font-size: 15px;
+      word-spacing: 2px;
+      line-height: 17px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
 #texto3{
   max-width: 90%;
   max-height: 100%;
-  font: normal 25pt Arial;
+  font: normal Arial;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
   color: white;
   text-align:left;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 60px;
   position:relative; 
   line-height: 35px;
   word-spacing: 4px;
+  display: flex;
+
+}
+@media(max-width: 500px){
+  #texto3{
+      font-size: 15px;
+      line-height: 17px;
+      word-spacing: 2px;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
 }
 #texto4{
   max-width: 90%;
   max-height: 100%;
-  font: normal 25pt Arial;
+  font: normal Arial;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
   color: white;
-  text-align:left;
-  margin-left: 30px;
-  margin-right: 30px;
+  text-align:justify;
+  margin-left: 60px;
   position:relative; 
   line-height: 35px;
   word-spacing: 4px;
+  display: flex;
 }
-@media screen and (max-width: 600px){
-  nav li{
-    float: none;
-    width: 100%;
-    text-align: center;
+@media(max-width: 500px){
+  #texto4{
+      font-size: 15px;
+      word-spacing: 2px;
+      line-height: 17px;
+      margin-left: 30px;
+      margin-right: 30px;
   }
-  footer p{
-    display: none;
+}
+#texto5{
+  max-width: 90%;
+  max-height: 100%;
+  font: normal Arial;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
+  color: white;
+  text-align:justify;
+  margin-left: 60px;
+  position:relative; 
+  line-height: 35px;
+  word-spacing: 4px;
+  display: flex;
+}
+@media(max-width: 500px){
+  #texto5{
+      font-size: 15px;
+      word-spacing: 2px;
+      line-height: 17px;
+      margin-left: 30px;
+      margin-right: 30px;
   }
 }
