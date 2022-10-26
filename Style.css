@@ -192,7 +192,6 @@
     width: 100%;
     position: relative;
     background-repeat: no-repeat;
-  
 }
 @media(max-width: 500px){
   #section1{
@@ -213,6 +212,11 @@
     width: 100%;
     background-color: #272727;
 }
+@media(max-width: 500px){
+  #section7{
+    max-height:300px;
+    }
+  }
 #section3 {
     height: 600px;
     width: 100%;
@@ -238,11 +242,21 @@
     width: 100%;
     background-color: #272727;
 }
+@media(max-width: 500px){
+  #section7{
+    max-height:250px;
+    }
+  }
   #section8 {
     height: 500px;
     width: 100%;
     background-color: #272727;
 }
+@media(max-width: 500px){
+  #section8{
+    max-height: 300px;
+    }
+  }
 
   #tituloPrincipal{
     font-size: 35px;
