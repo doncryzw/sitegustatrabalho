@@ -232,6 +232,11 @@
     width: 100%;
     background-color: #272727;
 }
+@media(max-width: 500px){
+  #section5{
+    max-height:550px;
+    }
+  }
   #section6 {
     height: 700px;
     width: 100%;
