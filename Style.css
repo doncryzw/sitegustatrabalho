@@ -561,7 +561,7 @@
   color: white;
   text-align:justify;
   margin-left: 60px;
-  position:relative; 
+  position:static; 
   line-height: 35px;
   word-spacing: 4px;
   display: flex;
@@ -584,7 +584,7 @@
   color: white;
   text-align:justify;
   margin-left: 60px;
-  position:relative; 
+  position:static; 
   line-height: 35px;
   word-spacing: 4px;
   display: flex;
@@ -607,7 +607,7 @@
   color: white;
   text-align:left;
   margin-left: 60px;
-  position:relative; 
+  position:static; 
   line-height: 35px;
   word-spacing: 4px;
   display: flex;
@@ -630,7 +630,7 @@
   color: white;
   text-align:justify;
   margin-left: 60px;
-  position:relative; 
+  position:static; 
   line-height: 35px;
   word-spacing: 4px;
   display: flex;
@@ -652,7 +652,7 @@
   color: white;
   text-align:justify;
   margin-left: 60px;
-  position:relative; 
+  position:static; 
   line-height: 35px;
   word-spacing: 4px;
   display: flex;
