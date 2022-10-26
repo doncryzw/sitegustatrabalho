@@ -213,7 +213,7 @@
     background-color: #272727;
 }
 @media(max-width: 500px){
-  #section7{
+  #section2{
     max-height:300px;
     }
   }
@@ -619,7 +619,7 @@
   font: normal Arial;
   font-size: clamp(1em, 1em + 1vw, 1.5em);
   color: white;
-  text-align:left;
+  text-align:justify;
   margin-left: 60px;
   position:static; 
   line-height: 35px;
